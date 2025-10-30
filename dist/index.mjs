@@ -109,7 +109,5 @@ app.use('/uploads/coverPhoto/', express.static('uploads/coverPhoto/'));
 app.use('/uploads/chats/', express.static('uploads/chats/'));
 app.use('/uploads/message/', express.static('uploads/message/'));
 app.use('/uploads/resume/', express.static('uploads/resume/'));
-server.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+export default app;
 //# sourceMappingURL=index.mjs.map
