@@ -109,5 +109,7 @@ app.use('/uploads/coverPhoto/', express.static('uploads/coverPhoto/'));
 app.use('/uploads/chats/', express.static('uploads/chats/'));
 app.use('/uploads/message/', express.static('uploads/message/'));
 app.use('/uploads/resume/', express.static('uploads/resume/'));
+
+
 export default app;
 //# sourceMappingURL=index.mjs.map
