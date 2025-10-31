@@ -21,7 +21,7 @@ import jobApplicationRouter from "./Mongodb/routes/job_application.route.mjs";
 import followRouter from "./Mongodb/routes/follow.route.mjs";
 import notificationRouter from "./Mongodb/routes/notification.route.mjs";
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 const app = express();
