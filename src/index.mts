@@ -44,6 +44,7 @@ const allowedOrigins = ['http://localhost:5173', 'http://192.168.100.12:5173', '
 // });
 const io = new Server(server, {
   cors: {
+  path: "/socket.io",
     origin: "*", // Allow all origins
     methods: ["GET", "POST"],
     credentials: true, // you can keep this true if needed
