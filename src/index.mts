@@ -137,7 +137,7 @@ try {
   app.use('/uploads/message/', express.static('uploads/message/'));
   app.use('/uploads/resume/', express.static('uploads/resume/'));
   
-    //server.listen(PORT, () => {
-    //console.log(`Server is running on http://localhost:${PORT}`);
-  //});
+  server.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+  });
 export default app;
